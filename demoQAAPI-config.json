@@ -1,0 +1,31 @@
+{
+  "baseUrl": "https://demoqa.com",
+  "FullName": "Arghajit Singha",
+  "Email": "arghajitsingha47@gmail.com",
+  "Password": "Asughan@4711",
+  "UserName": "Argha",
+  "video": false,
+  "chromeWebSecurity": false,
+  "viewportHeight": 1080,
+  "viewportWidth": 1920,
+  "pageLoadTimeout": 60000,
+  "requestTimeout": 30000,
+  "defaultCommandTimeout": 50000,
+  "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "reportDir": "cypress/API-Testing-Report",
+    "charts": true,
+    "reportPageTitle": "API-Testing-Result"
+  },
+  "testFiles": [
+    "demoQA API Testing/createNewUser.spec.js",
+    "demoQA API Testing/loginNewUser.spec.js",
+    "demoQA API Testing/loginUser.spec.js",
+    "demoQA API Testing/getAccountDetails.spec.js",
+    "demoQA API Testing/goToBookStore.spec.js",
+    "demoQA API Testing/addBooksToCollection.spec.js",
+    "demoQA API Testing/deleteSpecificBook.spec.js",
+    "demoQA API Testing/deleteAllBooks.spec.js",
+    "demoQA API Testing/deleteAccount.spec.js"
+  ]
+}

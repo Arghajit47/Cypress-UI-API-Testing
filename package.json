@@ -1,0 +1,24 @@
+{
+  "name": "cypress-api-testing",
+  "version": "1.0.0",
+  "description": "In this project I am trying to test Api using Cypress Automation tool",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Arghajit Singha",
+  "license": "ISC",
+  "devDependencies": {
+    "@cypress-audit/lighthouse": "^1.2.0",
+    "@types/node": "^18.11.10",
+    "@types/uuid": "^9.0.0",
+    "cypress": "^9.7.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-mochawesome-reporter": "^3.3.0",
+    "cypress-slow-down": "^1.2.1",
+    "cypress-xpath": "^2.0.1",
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "random-words": "^1.2.1",
+    "uuid": "^9.0.0"
+  }
+}

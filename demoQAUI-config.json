@@ -1,0 +1,24 @@
+{
+  "baseUrl": "https://demoqa.com",
+  "FullName": "Arghajit Singha",
+  "Email": "arghajitsingha47@gmail.com",
+  "Password": "Asughan@4711",
+  "UserName": "Argha",
+  "video": false,
+  "chromeWebSecurity": false,
+  "viewportHeight": 1080,
+  "viewportWidth": 1920,
+  "pageLoadTimeout": 60000,
+  "requestTimeout": 30000,
+  "defaultCommandTimeout": 50000,
+  "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "reportDir": "cypress/UI-Testing-Report",
+    "charts": true,
+    "reportPageTitle": "UI-Testing-Result"
+  },
+  "testFiles": [
+    "demoQA Web Testing/elements.spec.js",
+    "demoQA Web Testing/bookStoreApplication.spec.js"
+  ]
+}
